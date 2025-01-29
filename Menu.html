@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Your Café</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="Home.html">
+            <img src="Gaff_Logo.png" alt="Café Logo">
+          </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="menu-hero">
+    <div class="hero-content">
+      <h1>Our Menu</h1>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Menu Categories -->
+    <section class="menu-categories">
+      <h2>Explore Our Delicious Offerings</h2>
+      <div class="category-buttons">
+        <button class="active" data-category="all">All</button>
+        <button data-category="coffee">Coffee</button>
+        <button data-category="desserts">Desserts</button>
+        <button data-category="snacks">Snacks</button>
+      </div>
+    </section>
+
+    <!-- Menu Items -->
+    <section class="menu-items">
+      <!-- Coffee Items -->
+      <div class="menu-item" data-category="coffee">
+        <img src="coffee1.jpg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>A strong shot of pure coffee.</p>
+        <p class="price">$3.50</p>
+      </div>
+      <div class="menu-item" data-category="coffee">
+        <img src="coffee2.jpg" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Espresso with steamed milk and foam.</p>
+        <p class="price">$4.00</p>
+      </div>
+
+      <!-- Dessert Items -->
+      <div class="menu-item" data-category="desserts">
+        <img src="dessert1.jpg" alt="Chocolate Cake">
+        <h3>Chocolate Cake</h3>
+        <p>Rich and decadent chocolate cake.</p>
+        <p class="price">$5.00</p>
+      </div>
+      <div class="menu-item" data-category="desserts">
+        <img src="dessert2.jpg" alt="Cheesecake">
+        <h3>Cheesecake</h3>
+        <p>Creamy and delicious cheesecake.</p>
+        <p class="price">$5.50</p>
+      </div>
+
+      <!-- Snack Items -->
+      <div class="menu-item" data-category="snacks">
+        <img src="snack1.jpg" alt="Croissant">
+        <h3>Croissant</h3>
+        <p>Buttery and flaky croissant.</p>
+        <p class="price">$3.00</p>
+      </div>
+      <div class="menu-item" data-category="snacks">
+        <img src="snack2.jpg" alt="Sandwich">
+        <h3>Sandwich</h3>
+        <p>Freshly made sandwich with your choice of filling.</p>
+        <p class="price">$6.00</p>
+      </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="special-offers">
+      <h2>Special Offers</h2>
+      <p>Enjoy a free dessert with every coffee purchase!</p>
+      <a href="#" class="cta-button">View Offers</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <a href="#">Contact Info</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
