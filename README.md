@@ -1,2 +1,16 @@
 # Cafe-GAff-Dummysite
-Gaff is a modern and stylish dummy cafe website featuring a sleek design, a warm color palette, and an inviting UI. This project showcases a well-structured landing page with a responsive layout, smooth animations, and a user-friendly experience. The website includes sections for the cafe's menu, about us, contact details, and customer reviews.
+# ☕ Gaff - Modern Cafe Website  
+
+Gaff is a beautifully designed dummy cafe website, showcasing a modern and minimalistic UI with a cozy aesthetic. This project is perfect for web design inspiration, front-end practice, or portfolio display.  
+
+## 🌟 Features  
+- 📱 Fully Responsive Design  
+- 🎨 Stylish UI with a warm color palette  
+- 🖼️ Smooth Animations and Transitions  
+- 🍽️ Menu Section with Food Categories  
+- 📍 Location and Contact Details  
+
+## 🛠️ Tech Stack  
+- **HTML5** – For structured content  
+- **CSS3** – For styling and animations  
+- **JavaScript** – For interactive elements  
